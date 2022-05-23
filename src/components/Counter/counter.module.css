@@ -1,3 +1,7 @@
 .counter {
   /* TODO */
+  /* text-align: center; */
+  /* display: flex; */
+  padding-right: 40px;
+  border: 1px solid black;
 }

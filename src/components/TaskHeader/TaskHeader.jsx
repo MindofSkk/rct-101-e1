@@ -5,7 +5,7 @@ const TaskHeader = () => {
   // sample values to be replaced
   let totalTask = 0;
   let unCompletedTask = 0;
-
+  
   // NOTE: do not delete `data-cy` key value pair
   return (
     <div data-cy="task-header" className={styles.taskHeader}>
