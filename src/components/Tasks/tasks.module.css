@@ -1,6 +1,15 @@
 .tasks {
-text-align: center;}
+  
+}
 
 .empty {
   /* sample */
+  
+}
+
+h2{
+  /* color: blue; */
+  padding-top: 10px;
+  border: 1px solid black;
+
 }

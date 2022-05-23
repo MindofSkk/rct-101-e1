@@ -14,7 +14,7 @@ const Tasks = (props) => {
 
         {a.map((b) => (
           <div>
-            <h2 style={{border:"1px solid black"}}>{b}
+            <h2>{b}
             <Task/>
             </h2>
             {/* <Tasks/> */}

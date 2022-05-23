@@ -10,7 +10,7 @@ const TaskApp = () => {
       {/* Header */}
       {/* Add Task */}
       {/* Tasks */}
-      <TaskHeader/>
+      {/* <TaskHeader/> */}
       <AddTask/>
     </div>
   );

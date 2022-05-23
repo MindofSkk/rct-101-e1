@@ -5,6 +5,7 @@ import { useState } from 'react'
 import Tasks from "../Tasks/Tasks";
 import { TaskHeader } from "../TaskHeader";
 
+
 const AddTask = () => {
   // NOTE: do not delete `data-cy` key value pair
 
@@ -28,6 +29,7 @@ setArray([task,...array])
 
   return (
    <>
+   <TaskHeader v={head}/>
     
      <div className={styles.todoForm}>
       <input data-cy="add-task-input" type="text" onChange={invalue} />
@@ -35,7 +37,7 @@ setArray([task,...array])
       </div>
   
     <Tasks pass={array}/>
-  
+    
    </>
   );
 };
